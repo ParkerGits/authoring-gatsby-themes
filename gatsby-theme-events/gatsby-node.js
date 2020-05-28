@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-exports.onPreBootstrap = ({ reporter }, options) => {
+exports.onPreBootstrap = ({ reporter }) => {
   const contentPath = 'data';
 
   if (!fs.existsSync(contentPath)) {
