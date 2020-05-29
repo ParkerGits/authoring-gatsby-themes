@@ -6,6 +6,7 @@
   "dependencies": {
     "@jlengstorf/gatsby-theme-events": "^1.0.1",
     "gatsby": "^2.22.12",
+    "lodash.merge": "^4.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
